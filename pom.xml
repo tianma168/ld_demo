@@ -11,7 +11,7 @@
 	<groupId>com.fastshow</groupId>
 	<artifactId>scim2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<!--<packaging>war</packaging>-->
 	<name>scim2</name>
 	<description>scim2 demo for Spring Boot</description>
 
