@@ -28,5 +28,5 @@ jobs:
       uses: docker/login-action@v1.6.0
       with:
         registry: registry.cn-hangzhou.aliyuncs.com
-        username: # optional
-        password: # optional
+        username: ${{ secrets.aliyun_username }}
+        password: ${{ secrets.aliyun_key }}
